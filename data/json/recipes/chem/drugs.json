@@ -555,7 +555,7 @@
     "subcategory": "CSC_CHEM_DRUGS",
     "skill_used": "cooking",
     "skills_required": [ "firstaid", 1 ],
-    "result_mult": 4,
+    "result_mult": 2,
     "difficulty": 2,
     "time": "2 m",
     "autolearn": true,
