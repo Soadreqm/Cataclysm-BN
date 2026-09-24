@@ -229,7 +229,7 @@
     "volume": "3 L",
     "price": "200 USD",
     "price_postapoc": "20 USD",
-	"rigid": false,
+    "rigid": false,
     "material": [ "leather" ],
     "symbol": "[",
     "looks_like": "tool_belt",
