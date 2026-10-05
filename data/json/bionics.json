@@ -649,6 +649,7 @@
     "name": { "str": "Hydraulic Muscles" },
     "description": "While activated, your muscles will be greatly enhanced, increasing your strength by 20.",
     "occupied_bodyparts": [ [ "torso", 4 ], [ "arm_l", 2 ], [ "arm_r", 2 ], [ "leg_l", 6 ], [ "leg_r", 6 ] ],
+    "included_bionics": [ "bio_hand_jack" ],
     "flags": [ "BIONIC_TOGGLED", "BIONIC_NPC_USABLE" ],
     "act_cost": "10 kJ",
     "react_cost": "10 kJ",
@@ -656,6 +657,14 @@
     "required_bionics": [ "bio_weight" ],
     "points": 4,
     "bio_enchantments": [ { "conditions": [ "ACTIVE" ], "values": [ { "value": "STRENGTH", "add": 20 } ] } ]
+  },
+  {
+    "id": "bio_hand_jack",
+    "type": "bionic",
+    "name": { "str": "Hydraulic Jack" },
+    "description": "Your hydraulic muscles can be used to jack up a vehicle to change its wheels, and to lift heavy vehicle components such as engines.",
+    "fake_item": "bionic_jack",
+    "included": true,
   },
   {
     "id": "bio_infolink",

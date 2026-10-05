@@ -29,6 +29,13 @@
     "name": { "str_sp": "unarmed" }
   },
   {
+    "id": "bionic_jack",
+    "copy-from": "fake_item",
+    "type": "TOOL",
+    "name": { "str": "hydraulic jack" },
+    "qualities": [ [ "LIFT", 2 ], [ "JACK", 6 ] ]
+  },
+  {
     "id": "toolset",
     "copy-from": "fake_item",
     "type": "TOOL",
