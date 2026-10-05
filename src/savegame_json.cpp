@@ -1052,6 +1052,11 @@ void player::load( const JsonObject &data )
         add_bionic( bionic_id( "bio_blindfold" ) );
     }
 
+    // Add the jack.
+    if( has_bionic( bionic_id( "bio_hydraulics" ) ) && !has_bionic( bionic_id( "bio_hand_jack" ) ) ) {
+        add_bionic( bionic_id( "bio_hand_jack" ) );
+    }
+
     // Fixes bugged characters for CBM's preventing mutations.
     for( const bionic &i : get_bionic_collection() ) {
         const bionic_id &bid = i.id;
